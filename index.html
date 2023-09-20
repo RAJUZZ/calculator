@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="./style.css" type="text/css" rel="stylesheet">
+
+</head>
+<body>
+    <h3>CALCULATOR</h3>
+    
+    
+    <div class="Calculator"> 
+
+       
+        <div class="Screen">
+            <input id="screena" class="screen" placeholder="MATH BOT" type="text" > <button  onclick="backspace()" class="a">x</button>
+
+        </div>
+
+        <div class="Keys" >
+
+            <button onclick="btnclick(7)">7</button>
+            <button onclick="btnclick(8)">8</button>
+            <button onclick="btnclick(9)">9</button>
+            <button onclick="btnclick('/')">/</button>
+            <br>
+            <button onclick="btnclick(4)">4</button>
+            <button onclick="btnclick(5)">5</button>
+            <button onclick="btnclick(6)">6</button>
+            <button onclick="btnclick('*')">X</button>
+            <br>
+            <button onclick="btnclick(1)">1</button>
+            <button onclick="btnclick(2)">2</button>
+            <button onclick="btnclick(3)">3</button>
+            <button onclick="btnclick('-')">-</button>
+            <br>
+            <button onclick="btnclick(0)">0</button>
+            <button onclick="btnclick('.')">.</button>
+            <button onclick="btnclick('+')">+</button>
+            <button onclick="calculate()">=</button>
+           
+        
+
+
+        </div>
+
+        
+    
+    
+    </div>
+<script>
+    function btnclick(val)
+    {
+        document.getElementById("screena").value+=val;
+    }
+    function calculate()
+    {
+        var result = 0;
+        result=eval(document.getElementById('screena').value);
+        document.getElementById('screena').value=result;
+    }
+
+    function backspace()
+    {
+        document.getElementById('screena').value=document.getElementById('screena').value.slice(0, -1);
+    }
+</script>
+
+</body>
+</html>
