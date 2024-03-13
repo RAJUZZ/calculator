@@ -18,7 +18,7 @@ border-radius: 10PX;
     
     margin: 100px auto 550px auto;
     border: 2px solid;
-    background-color: black;
+    background-color: grey;
     height: 380px;
     width: 380px;
     padding: 10px;
@@ -48,8 +48,8 @@ border-radius: 10PX;
     background-color: rgb(192, 25, 25);
 }
 button{
- /* background-color: rgb(238, 144, 144); */
- background-image: linear-gradient(43deg, #d0d3e0 0%, #d5bfd3 46%, #1264de 100%);
+ background-color: rgb(238, 144, 144);
+ /*background-image: linear-gradient(43deg, #d0d3e0 0%, #d5bfd3 46%, #1264de 100%);*/
  color: rgb(25, 25, 26);
  font-size: 20pt;
  font-weight: normal;
