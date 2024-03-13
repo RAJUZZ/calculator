@@ -18,12 +18,12 @@ border-radius: 10PX;
     
     margin: 100px auto 550px auto;
     border: 2px solid;
-    background-color: rgb(31, 33, 32);
+    background-color: black;
     height: 380px;
     width: 380px;
     padding: 10px;
     box-shadow: 1px 1px 100px 2px #231505 ;
-background-image: linear-gradient(43deg, #0728d2 0%, #cb07be 46%, #d8e914 100%);
+
 
    
 }
