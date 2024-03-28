@@ -1,73 +1,83 @@
 body{
-    background-image:url(./images/Sea\ Blue.jpg)
+    background-image:radial-gradient(circle, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
 }
 
 
 h3{
 text-align: center;
 font-size: 50pt;
-color:#3e403e;
+color:black;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
-background-image: linear-gradient(43deg, #b6b8c6 0%, #564955 46%, #7ea9ae 100%);
-box-shadow: 1px 1px 100px 2px #212fc7 ;
+box-shadow: 1px 1px 100px 2px #0816b1 ;
 border-radius: 10PX;
+padding: 5PX;
+display: flow-root;
+flex-wrap: wrap;
+
 }
+
+
 
 .Calculator{
     
     margin: 100px auto 550px auto;
-    border: 2px solid rgb(225, 217, 223);
-    background-color: rgba(80, 80, 63, 0.688);
-    height: 380px;
-    width: 380px;
-    padding: 10px;
-    box-shadow: 1px 1px 100px 2px #a916b4 ;
+    border: 5px solid rgb(32, 8, 8);
+    background-color: rgba(0, 0, 0, 0.688);
+    height: 600px;
+    width: 400px;
+    padding: 20px;
+    box-shadow: 1px 1px 100px 2px #dc1c46 ;
     border-radius: 25px;
-
-
-   
 }
 
 
 
 .screen{
-    height: 60px;
-    width: 294px;
-    font-size: 20pt;
-    background-color: rgb(106, 171, 171);
+    height: 80px;
+    width: 280px;
+    font-size: 30px;
+    background-color: rgb(148, 224, 241);
     border-radius: 20px;
     border: 2px solid rgba(30, 23, 27, 0.634);
-    
-    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 7px;  
 }
 
 .a{    
     height: 60px;
-    margin-top: 5px;
-    margin-bottom: 20px;
-    font-weight: normal;
-    font-size: 15pt;
-    background-color: rgb(222, 26, 26);
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    font-weight: lighter;
+    font-size: 40px;
+    background-color: rgb(159, 60, 60);
+    display: inline-block;
+    border-radius: 30%;
 }
+
 button{
- background-color: rgb(218, 202, 202);
- /*background-image: linear-gradient(43deg, #d0d3e0 0%, #d5bfd3 46%, #1264de 100%);*/
- color: rgb(25, 25, 26);
+ 
+ background-color: rgb(36, 34, 34);
+ color: rgb(203, 203, 221);
  font-size: 20pt;
  font-weight: normal;
- width: 70px;
- height: 70px;
- margin: 2px;
- border-radius: 30%;
- border: 4px solid rgb(40, 37, 38) ;
+ width: 80px;
+ height: 80px;
+ margin: 8px;
+ border-radius: 40%;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ border: 3px solid rgb(186, 196, 197) ;
  
 }
 
+span{
+    font-size: 80px;
+    
+}
 
 a,footer{
     margin-top: 50px;
-    text-align: left;
+    text-align: right;
     color: white;
     text-transform: uppercase;
     text-decoration: none;
@@ -75,3 +85,5 @@ a,footer{
     display: inline; */
     /* border:5px solid #212fc7; */
 }
+
+
